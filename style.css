@@ -1,0 +1,134 @@
+body{
+    background-color: yellow;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    text-shadow:        /* для рамки тексту*/
+  -2px -1px 0 #000,
+   1px -1px 0 #000,
+  -1px  1px 0 #000,
+   1px  1px 0 #000;
+}
+
+header, main{         /* стилі main та header разом */
+    background-color: rgb(196, 79, 239);
+    color: yellow;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+h1{
+    text-align: center;
+}
+
+a{
+    color: yellow;
+    text-decoration: none;
+}
+
+article {
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 160px;
+    height: 225px;
+    padding: 5px;
+    margin: 10px;
+    transition: 1s;
+    p{
+        transition: 1s;
+        font-size: 20px;
+        text-align: center;
+    }
+    img{
+        transition: 1s;
+        width: 150px;
+        text-align: center;
+        border: 2px solid black;
+    }
+}
+
+article:hover{
+    height: 235px;
+    width: 170px;
+    p{
+        font-size: 22px;
+        text-align: center;
+    }
+    img{
+        width: 160px;
+        text-align: center;
+    }
+}
+
+.quest{
+    width: 100%; /* щоб ширина контейнеру була у весь єкран */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+input{
+    background-color: black;
+    width: 10%;
+    animation-name: anime1;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.checkLast{
+    background-color: black;
+    width: 10%;
+    animation-name: anime1;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.password{
+    width: 100%;
+    text-align: center;
+}
+
+@keyframes anime1 {  /* анімація кнопки та поле воду останього етапу */
+    12.5% {
+        border: 2px solid red;
+        color: red;
+    }
+
+    25% {
+        border: 2px solid orange;
+        color: orange;
+    }
+
+    37.5% {
+        border: 2px solid yellow;
+        color: yellow;
+    }
+    
+    50% {
+        border: 2px solid greenyellow;
+        color: greenyellow;
+    }
+    
+    62.5% {
+        border: 2px solid green;
+        color: green;
+    }
+    
+    75% {
+        border: 2px solid skyblue;
+        color: skyblue;
+    }
+    
+    87.5% {
+        border: 2px solid blue;
+        color: blue;
+    }
+    
+    100% {
+        border: 2px solid fuchsia;
+        color: fuchsia;
+    }
+}
