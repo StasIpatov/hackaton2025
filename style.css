@@ -84,6 +84,11 @@ input{
     animation-duration: 2s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
+    transition: 1s;
+}
+
+.checkLast:active{
+    width: 9%;
 }
 
 .password{
@@ -128,7 +133,413 @@ input{
     }
     
     100% {
-        border: 2px solid fuchsia;
-        color: fuchsia;
+        border: 2px solid red;
+        color: red;
+    }
+}
+
+/* квести */
+
+.quest1{
+    display: block;
+    h2 {
+        text-align: center;
+        background-color: white;
+        color: #000;
+        border: 2px solid black;
+        border-radius: 5px;
+        text-shadow: none;
+    }
+
+    div{
+        width: 99%;
+        background-color: white;
+        padding: 5px;
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        height: 99%;
+    }
+
+    button{
+        width: 55%;
+        height: 50px;
+        margin: 5px;
+        background-color: yellow;
+        font-size: 120%;
+        border-radius: 5px;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    button:hover{
+        height: 55px;
+        font-size: 125%;
+        width: 60%;
+    }
+
+    button:active{
+        width: 55%;
+        height: 50px;
+    }
+
+    .button-conteiner{
+        border: none;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    h3{
+        text-shadow: none;
+        position: absolute;
+        top: 4px;
+        left: 10px
+    }
+}
+
+.quest2{
+    display: none;
+    h2 {
+        text-align: center;
+        background-color: white;
+        color: #000;
+        border: 2px solid black;
+        border-radius: 5px;
+        text-shadow: none;
+    }
+
+    
+    div{
+        width: 99%;
+        background-color: white;
+        padding: 5px;
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    button{
+        width: 55%;
+        height: 50px;
+        margin: 5px;
+        background-color: yellow;
+        font-size: 120%;
+        border-radius: 5px;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    button:hover{
+        height: 55px;
+        font-size: 125%;
+        width: 60%;
+    }
+
+    button:active{
+        width: 55%;
+        height: 50px;
+    }
+
+    .button-conteiner{
+        border: none;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    h3{
+        text-shadow: none;
+        position: absolute;
+        top: 4px;
+        left: 10px
+    }
+}
+
+.quest3{
+    display: none;
+    h2 {
+        text-align: center;
+        background-color: white;
+        color: #000;
+        border: 2px solid black;
+        border-radius: 5px;
+        text-shadow: none;
+    }
+    
+    div{
+        width: 99%;
+        background-color: white;
+        padding: 5px;
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    button{
+        width: 55%;
+        height: 50px;
+        margin: 5px;
+        background-color: yellow;
+        font-size: 120%;
+        border-radius: 5px;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    button:hover{
+        height: 55px;
+        font-size: 125%;
+        width: 60%;
+    }
+
+    button:active{
+        width: 55%;
+        height: 50px;
+    }
+
+    .button-conteiner{
+        border: none;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    h3{
+        text-shadow: none;
+        position: absolute;
+        top: 4px;
+        left: 10px
+    }
+}
+
+.quest4{
+    display: none;
+    h2 {
+        text-align: center;
+        background-color: white;
+        color: #000;
+        border: 2px solid black;
+        border-radius: 5px;
+        text-shadow: none;
+    }
+    
+    div{
+        width: 99%;
+        background-color: white;
+        padding: 5px;
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    button{
+        width: 55%;
+        height: 50px;
+        margin: 5px;
+        background-color: yellow;
+        font-size: 120%;
+        border-radius: 5px;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    button:hover{
+        height: 55px;
+        font-size: 125%;
+        width: 60%;
+    }
+
+    button:active{
+        width: 55%;
+        height: 50px;
+    }
+
+    .button-conteiner{
+        border: none;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    h3{
+        text-shadow: none;
+        position: absolute;
+        top: 4px;
+        left: 10px
+    }
+}
+
+.quest5{
+    display: none;
+    h2 {
+        text-align: center;
+        background-color: white;
+        color: #000;
+        border: 2px solid black;
+        border-radius: 5px;
+        text-shadow: none;
+    }
+    
+    div{
+        width: 99%;
+        background-color: white;
+        padding: 5px;
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    button{
+        width: 55%;
+        height: 50px;
+        margin: 5px;
+        background-color: yellow;
+        font-size: 120%;
+        border-radius: 5px;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    button:hover{
+        height: 55px;
+        font-size: 125%;
+        width: 60%;
+    }
+
+    button:active{
+        width: 55%;
+        height: 50px;
+    }
+
+    .button-conteiner{
+        border: none;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    h3{
+        text-shadow: none;
+        position: absolute;
+        top: 4px;
+        left: 10px
+    }
+}
+
+.quest6{
+    display: none;
+    h2 {
+        text-align: center;
+        background-color: white;
+        color: #000;
+        border: 2px solid black;
+        border-radius: 5px;
+        text-shadow: none;
+    }
+    
+    div{
+        width: 99%;
+        background-color: white;
+        padding: 5px;
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    button{
+        width: 55%;
+        height: 50px;
+        margin: 5px;
+        background-color: yellow;
+        font-size: 120%;
+        border-radius: 5px;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    button:hover{
+        height: 55px;
+        font-size: 125%;
+        width: 60%;
+    }
+
+    button:active{
+        width: 55%;
+        height: 50px;
+    }
+
+    .button-conteiner{
+        border: none;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    a{
+        background-color: yellow;
+        color: rgb(0, 0, 0);
+        border: 2px solid black;
+        padding: 4px;
+        border-radius: 5px;
+        font-size: medium;
+    }
+}
+
+.win{
+    text-shadow: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    img{
+        height: 400px
+    }
+}
+
+/* стилі останьої сторінки */
+
+nav{
+    text-shadow: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    a{
+        background-color: yellow;
+        width: 200px;
+        color: black;
+        border: 2px solid black;
+        border-radius: 5px;
+        text-shadow: none;
+        text-align: center;
+        margin: 5px;
     }
 }
