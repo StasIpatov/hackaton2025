@@ -12,25 +12,26 @@ anime({
 //// перехід на останій рівень
 
 let btn = document.querySelector('.checkLast')
+const fail = document.getElementById('fail')
+const done = document.getElementById('done')
 
 btn.onclick = function(){
     let pass = '12AP25'
     let lastQ = document.getElementById('lastQuest').value
 
-    if(lastQ == pass){
-        window.location.href = 'last.html'
-    } else {
-        alert('Помилка!')
+    if(lastQ == pass){  // якщо відповідь вірна
+        window.location.href = 'last.html'  // перекидуе на іншу сторінку
+    } else {   // якщо відповідь не вірна
+        fail.style.display = 'block'
     }
 }
 
+done.onclick = function(){
+  fail.style.display = 'none'
+}
 //////////////////// Перемикач теми
 
 const checkbox = document.getElementById("input");
-let mh = [
-  document.querySelector('header'),
-  document.querySelector('main')
-];
 const body = document.body;
 
 // Функція для встановлення теми

@@ -44,12 +44,19 @@ t5.onclick = function(){
     q6.style.display = 'block'
 }
 //// виведеня помилки
+
+const fail = document.getElementById('fail')
+const done = document.getElementById('done')
+
 f.forEach(button => {
     button.addEventListener('click', () => {
-      alert('Помилка! Повторіть спробу')
+      fail.style.display = 'block'
     });
   });
 
+done.onclick = function(){
+  fail.style.display = 'none'
+}
 
 // Перевірка наявності збереженої теми з localStorage або cookie
 const body = document.body;
