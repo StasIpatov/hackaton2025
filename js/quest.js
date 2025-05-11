@@ -58,6 +58,8 @@ done.onclick = function(){
   fail.style.display = 'none'
 }
 
+//// тема
+
 // Перевірка наявності збереженої теми з localStorage або cookie
 const body = document.body;
 

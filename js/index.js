@@ -16,11 +16,11 @@ const fail = document.getElementById('fail')
 const done = document.getElementById('done')
 
 btn.onclick = function(){
-    let pass = '12AP25'
+    let pass = '02AP1867'
     let lastQ = document.getElementById('lastQuest').value
 
     if(lastQ == pass){  // якщо відповідь вірна
-        window.location.href = 'last.html'  // перекидуе на іншу сторінку
+        window.location.href = 'boss.html'  // перекидуе на іншу сторінку
     } else {   // якщо відповідь не вірна
         fail.style.display = 'block'
     }
